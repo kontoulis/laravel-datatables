@@ -97,6 +97,17 @@ class Datatables
     }
 
     /**
+     * Datatables using NeoEloquent.
+     *
+     * @param  mixed $builder
+     * @return \Yajra\Datatables\Engines\NeoEloquentEngine
+     */
+    public function usingNeoEloquent($builder)
+    {
+        return new NeoEloquentEngine($builder, $this->request);
+    }
+
+    /**
      * Allows api call without the "using" word.
      *
      * @param  string $name
