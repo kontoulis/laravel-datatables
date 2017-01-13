@@ -6,6 +6,7 @@ use Illuminate\Database\Query\Builder as QueryBuilder;
 use Illuminate\Support\Collection;
 use Yajra\Datatables\Engines\CollectionEngine;
 use Yajra\Datatables\Engines\EloquentEngine;
+use Yajra\Datatables\Engines\NeoEloquentEngine;
 use Yajra\Datatables\Engines\QueryBuilderEngine;
 
 /**
