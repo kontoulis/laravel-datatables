@@ -102,7 +102,7 @@ class Datatables
      * @param  mixed $builder
      * @return \Yajra\Datatables\Engines\NeoEloquentEngine
      */
-    public function usingNeoEloquent($builder)
+    public function usingNeoeloquent($builder)
     {
         return new NeoEloquentEngine($builder, $this->request);
     }
