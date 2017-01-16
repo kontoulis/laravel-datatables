@@ -221,6 +221,7 @@ class Helper
      */
     public static function convertToArray($row)
     {
+
         $data = $row instanceof Arrayable ? $row->toArray() : (array) $row;
         foreach (array_keys($data) as $key) {
             if (is_object($data[$key]) || is_array($data[$key])) {

@@ -94,6 +94,7 @@ class DataProcessor
 
         foreach ($this->results as $row) {
             $data  = Helper::convertToArray($row);
+
             $value = $this->addColumns($data, $row);
             $value = $this->editColumns($value, $row);
             $value = $this->setupRowVariables($value, $row);

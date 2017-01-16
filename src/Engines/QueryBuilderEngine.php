@@ -19,7 +19,7 @@ use Yajra\Datatables\Request;
 class QueryBuilderEngine extends BaseEngine
 {
     /**
-
+     * @param \Illuminate\Database\Query\Builder $builder
      * @param \Yajra\Datatables\Request $request
      */
     public function __construct($builder, Request $request)
@@ -93,6 +93,7 @@ class QueryBuilderEngine extends BaseEngine
     public function count()
     {
         $myQuery = clone $this->query;
+        return $myQuery->getCountForPagination();
         // if its a normal query ( no union, having and distinct word )
         // replace the select with static text to improve performance
         if (! Str::contains(Str::lower($myQuery->toSql()), ['union', 'having', 'distinct', 'order by', 'group by'])) {
@@ -404,7 +405,10 @@ class QueryBuilderEngine extends BaseEngine
             }
 
             // Get table from query and add it.
-            $column = $q->from . '.' . $column;
+//            dd($column,$q->from);
+            $column = $q->from[0] .
+                '.'
+                . $column;
         }
 
         return $this->wrap($column);
