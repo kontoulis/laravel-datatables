@@ -2,7 +2,7 @@
 
 namespace Yajra\Datatables\Engines;
 
-use Vinelab\NeoEloquent\Eloquen\Builder;
+use Vinelab\NeoEloquent\Eloquent\Builder;
 use Yajra\Datatables\Request;
 
 /**

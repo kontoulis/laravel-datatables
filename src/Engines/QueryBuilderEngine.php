@@ -6,7 +6,6 @@ use Closure;
 use Illuminate\Database\Eloquent\Relations\BelongsToMany;
 use Illuminate\Database\Eloquent\Relations\HasOneOrMany;
 use Illuminate\Database\Eloquent\Relations\MorphToMany;
-use Illuminate\Database\Query\Builder;
 use Illuminate\Support\Str;
 use Yajra\Datatables\Helper;
 use Yajra\Datatables\Request;
@@ -20,10 +19,10 @@ use Yajra\Datatables\Request;
 class QueryBuilderEngine extends BaseEngine
 {
     /**
-     * @param \Illuminate\Database\Query\Builder $builder
+
      * @param \Yajra\Datatables\Request $request
      */
-    public function __construct(Builder $builder, Request $request)
+    public function __construct($builder, Request $request)
     {
         $this->query = $builder;
         $this->init($request, $builder);
