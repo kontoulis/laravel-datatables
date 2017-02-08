@@ -1,12 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
+<<<<<<< HEAD
     <list default="true" id="ea8793a8-4c13-4b16-bd61-46cb6723a1c2" name="Default" comment="">
       <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engines/NeoQueryBuilderEngine.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php" afterPath="$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engines/QueryBuilderEngine.php" afterPath="$PROJECT_DIR$/src/Engines/QueryBuilderEngine.php" />
     </list>
+=======
+    <list default="true" id="ea8793a8-4c13-4b16-bd61-46cb6723a1c2" name="Default" comment="" />
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
     <option name="SHOW_DIALOG" value="false" />
@@ -18,13 +22,21 @@
     <option name="PATCH_PATH" value="" />
   </component>
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
+  <component name="FavoritesManager">
+    <favorites_list name="laravel-datatables" />
+  </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file leaf-file-name="NeoEloquentEngine.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php">
           <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
             <state relative-caret-position="234">
               <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+=======
+            <state relative-caret-position="396">
+              <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
               <folding>
                 <element signature="e#44#85#0#PHP" expanded="true" />
               </folding>
@@ -36,6 +48,7 @@
         <entry file="file://$PROJECT_DIR$/src/Engines/QueryBuilderEngine.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="126">
+<<<<<<< HEAD
               <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
               <folding />
             </state>
@@ -47,6 +60,9 @@
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="630">
               <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+=======
+              <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
               <folding />
             </state>
           </provider>
@@ -56,7 +72,11 @@
         <entry file="file://$PROJECT_DIR$/src/Engines/EloquentEngine.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="0">
+<<<<<<< HEAD
               <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+=======
+              <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
               <folding>
                 <element signature="e#44#85#0#PHP" expanded="true" />
               </folding>
@@ -68,7 +88,11 @@
         <entry file="file://$PROJECT_DIR$/src/Datatables.php">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="1818">
+<<<<<<< HEAD
               <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+=======
+              <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
               <folding>
                 <element signature="e#36#90#0#PHP" expanded="true" />
               </folding>
@@ -85,9 +109,14 @@
     <option name="CHANGED_PATHS">
       <list>
         <option value="$PROJECT_DIR$/src/Datatables.php" />
+<<<<<<< HEAD
         <option value="$PROJECT_DIR$/src/Engines/QueryBuilderEngine.php" />
         <option value="$PROJECT_DIR$/src/Engines/NeoQueryBuilderEngine.php" />
         <option value="$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php" />
+=======
+        <option value="$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php" />
+        <option value="$PROJECT_DIR$/src/Engines/QueryBuilderEngine.php" />
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
       </list>
     </option>
   </component>
@@ -99,13 +128,20 @@
   </component>
   <component name="PhpWorkspaceProjectConfiguration" backward_compatibility_performed="true" />
   <component name="ProjectFrameBounds">
-    <option name="x" value="1985" />
+    <option name="x" value="65" />
     <option name="y" value="24" />
     <option name="width" value="1855" />
-    <option name="height" value="1176" />
+    <option name="height" value="1056" />
   </component>
-  <component name="ProjectLevelVcsManager">
+  <component name="ProjectLevelVcsManager" settingsEditedManually="false">
+    <OptionsSetting value="true" id="Add" />
+    <OptionsSetting value="true" id="Remove" />
+    <OptionsSetting value="true" id="Checkout" />
+    <OptionsSetting value="true" id="Update" />
+    <OptionsSetting value="true" id="Status" />
+    <OptionsSetting value="true" id="Edit" />
     <ConfirmationsSetting value="2" id="Add" />
+    <ConfirmationsSetting value="0" id="Remove" />
   </component>
   <component name="ProjectView">
     <navigator currentView="ProjectPane" proportions="" version="1">
@@ -123,8 +159,15 @@
     </navigator>
     <panes>
       <pane id="Scope" />
+      <pane id="Scratches" />
       <pane id="ProjectPane">
         <subPane>
+          <PATH>
+            <PATH_ELEMENT>
+              <option name="myItemId" value="laravel-datatables" />
+              <option name="myItemType" value="com.intellij.ide.projectView.impl.nodes.ProjectViewProjectNode" />
+            </PATH_ELEMENT>
+          </PATH>
           <PATH>
             <PATH_ELEMENT>
               <option name="myItemId" value="laravel-datatables" />
@@ -187,7 +230,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -203,12 +245,6 @@
     </key>
   </component>
   <component name="RunManager">
-    <configuration default="true" type="JavaScriptTestRunnerProtractor" factoryName="Protractor">
-      <config-file value="" />
-      <node-interpreter value="project" />
-      <envs />
-      <method />
-    </configuration>
     <configuration default="true" type="JavascriptDebugType" factoryName="JavaScript Debug">
       <method />
     </configuration>
@@ -226,10 +262,6 @@
     <configuration default="true" type="PhpLocalRunConfigurationType" factoryName="PHP Console">
       <method />
     </configuration>
-    <configuration default="true" type="PhpSpecConfigurationType" factoryName="PHPSpec">
-      <PhpTestRunnerSettings />
-      <method />
-    </configuration>
     <configuration default="true" type="js.build_tools.gulp" factoryName="Gulp.js">
       <node-interpreter>project</node-interpreter>
       <node-options />
@@ -240,7 +272,7 @@
       <method />
     </configuration>
     <configuration default="true" type="js.build_tools.npm" factoryName="npm">
-      <command value="run" />
+      <command value="run-script" />
       <scripts />
       <node-interpreter value="project" />
       <envs />
@@ -271,15 +303,23 @@
       <option name="presentableId" value="Default" />
       <updated>1484311267525</updated>
       <workItem from="1484311268828" duration="2429000" />
+<<<<<<< HEAD
       <workItem from="1486575206707" duration="203000" />
+=======
+      <workItem from="1484559576139" duration="382000" />
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
+<<<<<<< HEAD
     <option name="totallyTimeSpent" value="2632000" />
+=======
+    <option name="totallyTimeSpent" value="2811000" />
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
   </component>
   <component name="ToolWindowManager">
-    <frame x="1985" y="24" width="1855" height="1176" extended-state="6" />
+    <frame x="65" y="24" width="1855" height="1056" extended-state="6" />
     <editor active="true" />
     <layout>
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24851751" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -304,6 +344,14 @@
   <component name="TypeScriptGeneratedFilesManager">
     <option name="processedProjectFiles" value="true" />
   </component>
+  <component name="Vcs.Log.UiProperties">
+    <option name="RECENTLY_FILTERED_USER_GROUPS">
+      <collection />
+    </option>
+    <option name="RECENTLY_FILTERED_BRANCH_GROUPS">
+      <collection />
+    </option>
+  </component>
   <component name="VcsContentAnnotationSettings">
     <option name="myLimit" value="2678400000" />
   </component>
@@ -315,6 +363,7 @@
     <entry file="file://$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
+<<<<<<< HEAD
           <caret line="22" column="22" lean-forward="false" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
           <folding>
             <element signature="e#44#85#0#PHP" expanded="true" />
@@ -336,6 +385,29 @@
           <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="e#44#85#0#PHP" expanded="true" />
+=======
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+          <folding>
+            <element signature="e#44#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engines/QueryBuilderEngine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engines/EloquentEngine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#44#85#0#PHP" expanded="true" />
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
           </folding>
         </state>
       </provider>
@@ -343,7 +415,11 @@
     <entry file="file://$PROJECT_DIR$/src/Datatables.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1818">
+<<<<<<< HEAD
           <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+=======
+          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
           <folding>
             <element signature="e#36#90#0#PHP" expanded="true" />
           </folding>
@@ -353,13 +429,18 @@
     <entry file="file://$PROJECT_DIR$/src/Datatables.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="1818">
+<<<<<<< HEAD
           <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+=======
+          <caret line="106" column="5" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
           <folding>
             <element signature="e#36#90#0#PHP" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Engines/EloquentEngine.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="0">
@@ -374,22 +455,43 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="630">
           <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Engines/QueryBuilderEngine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="55" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
           <folding />
         </state>
       </provider>
     </entry>
+<<<<<<< HEAD
     <entry file="file://$PROJECT_DIR$/src/Engines/QueryBuilderEngine.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
           <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
           <folding />
+=======
+    <entry file="file://$PROJECT_DIR$/src/Engines/EloquentEngine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#44#85#0#PHP" expanded="true" />
+          </folding>
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php">
       <provider selected="true" editor-type-id="text-editor">
+<<<<<<< HEAD
         <state relative-caret-position="234">
           <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+=======
+        <state relative-caret-position="396">
+          <caret line="22" column="22" selection-start-line="22" selection-start-column="22" selection-end-line="22" selection-end-column="22" />
+>>>>>>> 6f7a974b5d062c1a311c82a48ea9b83b19032078
           <folding>
             <element signature="e#44#85#0#PHP" expanded="true" />
           </folding>

@@ -700,9 +700,13 @@ abstract class BaseEngine implements DataTableEngineContract
             }
 
             $collection     = $fractal->createData($resource)->toArray();
+
             $output['data'] = $collection['data'];
+
         } else {
-            $output['data'] = Helper::transform($this->getProcessedData($object));
+//            $output['data'] = Helper::transform($this->getProcessedData($object));
+            $output['data'] = $this->getProcessedData($object);
+
         }
 
         if ($this->isDebugging()) {
