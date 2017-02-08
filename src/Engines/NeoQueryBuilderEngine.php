@@ -93,6 +93,7 @@ class QueryBuilderEngine extends BaseEngine
     public function count()
     {
         $myQuery = clone $this->query;
+        return $myQuery->count();
         // if its a normal query ( no union, having and distinct word )
         // replace the select with static text to improve performance
         if (! Str::contains(Str::lower($myQuery->toSql()), ['union', 'having', 'distinct', 'order by', 'group by'])) {

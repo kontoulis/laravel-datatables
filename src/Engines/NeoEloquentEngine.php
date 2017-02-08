@@ -2,7 +2,7 @@
 
 namespace Yajra\Datatables\Engines;
 
-use Vinelab\NeoEloquent\Eloquen\Builder;
+use Vinelab\NeoEloquent\Eloquent\Builder;
 use Yajra\Datatables\Request;
 
 /**
@@ -11,7 +11,7 @@ use Yajra\Datatables\Request;
  * @package Yajra\Datatables\Engines
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
-class NeoEloquentEngine extends QueryBuilderEngine
+class NeoEloquentEngine extends NeoQueryBuilderEngine
 {
     /**
      * @param mixed $model
