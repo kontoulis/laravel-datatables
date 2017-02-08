@@ -2,10 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="ea8793a8-4c13-4b16-bd61-46cb6723a1c2" name="Default" comment="">
-      <change type="NEW" beforePath="" afterPath="$PROJECT_DIR$/src/Engines/NeoQueryBuilderEngine.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php" afterPath="$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engines/QueryBuilderEngine.php" afterPath="$PROJECT_DIR$/src/Engines/QueryBuilderEngine.php" />
+      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/src/Engines/NeoQueryBuilderEngine.php" afterPath="$PROJECT_DIR$/src/Engines/NeoQueryBuilderEngine.php" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -20,11 +17,11 @@
   <component name="ExecutionTargetManager" SELECTED_TARGET="default_target" />
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="NeoEloquentEngine.php" pinned="false" current-in-tab="true">
+      <file leaf-file-name="NeoEloquentEngine.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="234">
-              <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+            <state relative-caret-position="252">
+              <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
               <folding>
                 <element signature="e#44#85#0#PHP" expanded="true" />
               </folding>
@@ -42,11 +39,11 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="NeoQueryBuilderEngine.php" pinned="false" current-in-tab="false">
+      <file leaf-file-name="NeoQueryBuilderEngine.php" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/src/Engines/NeoQueryBuilderEngine.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="630">
-              <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+            <state relative-caret-position="162">
+              <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
               <folding />
             </state>
           </provider>
@@ -67,8 +64,8 @@
       <file leaf-file-name="Datatables.php" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/src/Datatables.php">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1818">
-              <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+            <state relative-caret-position="1908">
+              <caret line="106" column="5" lean-forward="false" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
               <folding>
                 <element signature="e#36#90#0#PHP" expanded="true" />
               </folding>
@@ -86,8 +83,8 @@
       <list>
         <option value="$PROJECT_DIR$/src/Datatables.php" />
         <option value="$PROJECT_DIR$/src/Engines/QueryBuilderEngine.php" />
-        <option value="$PROJECT_DIR$/src/Engines/NeoQueryBuilderEngine.php" />
         <option value="$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php" />
+        <option value="$PROJECT_DIR$/src/Engines/NeoQueryBuilderEngine.php" />
       </list>
     </option>
   </component>
@@ -272,11 +269,12 @@
       <updated>1484311267525</updated>
       <workItem from="1484311268828" duration="2429000" />
       <workItem from="1486575206707" duration="203000" />
+      <workItem from="1486575630880" duration="64000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="2632000" />
+    <option name="totallyTimeSpent" value="2696000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="1985" y="24" width="1855" height="1176" extended-state="6" />
@@ -312,6 +310,52 @@
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#44#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engines/QueryBuilderEngine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="7" column="55" lean-forward="false" selection-start-line="7" selection-start-column="55" selection-end-line="7" selection-end-column="55" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engines/NeoQueryBuilderEngine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1602">
+          <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engines/EloquentEngine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="0">
+          <caret line="0" column="0" lean-forward="false" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
+          <folding>
+            <element signature="e#44#85#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Datatables.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1908">
+          <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+          <folding>
+            <element signature="e#36#90#0#PHP" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="378">
@@ -352,8 +396,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Datatables.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1818">
-          <caret line="106" column="5" lean-forward="true" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
+        <state relative-caret-position="1908">
+          <caret line="106" column="5" lean-forward="false" selection-start-line="106" selection-start-column="5" selection-end-line="106" selection-end-column="5" />
           <folding>
             <element signature="e#36#90#0#PHP" expanded="true" />
           </folding>
@@ -370,14 +414,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/Engines/NeoQueryBuilderEngine.php">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="630">
-          <caret line="95" column="33" lean-forward="true" selection-start-line="95" selection-start-column="33" selection-end-line="95" selection-end-column="33" />
-          <folding />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/Engines/QueryBuilderEngine.php">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="126">
@@ -388,11 +424,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/Engines/NeoEloquentEngine.php">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="234">
-          <caret line="13" column="35" lean-forward="false" selection-start-line="13" selection-start-column="35" selection-end-line="13" selection-end-column="35" />
+        <state relative-caret-position="252">
+          <caret line="14" column="1" lean-forward="true" selection-start-line="14" selection-start-column="1" selection-end-line="14" selection-end-column="1" />
           <folding>
             <element signature="e#44#85#0#PHP" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/Engines/NeoQueryBuilderEngine.php">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="15" column="21" lean-forward="false" selection-start-line="15" selection-start-column="21" selection-end-line="15" selection-end-column="21" />
+          <folding />
         </state>
       </provider>
     </entry>

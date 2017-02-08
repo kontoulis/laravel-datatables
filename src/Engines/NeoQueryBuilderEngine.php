@@ -16,7 +16,7 @@ use Yajra\Datatables\Request;
  * @package Yajra\Datatables\Engines
  * @author  Arjay Angeles <aqangeles@gmail.com>
  */
-class QueryBuilderEngine extends BaseEngine
+class NeoQueryBuilderEngine extends BaseEngine
 {
     /**
 
