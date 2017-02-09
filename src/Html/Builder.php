@@ -84,6 +84,7 @@ class Builder
         'infoCallback',
         'initComplete',
         'preDrawCallback',
+        'preInit',
         'rowCallback',
         'stateLoadCallback',
         'stateLoaded',
