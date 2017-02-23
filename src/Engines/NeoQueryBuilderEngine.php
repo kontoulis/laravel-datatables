@@ -107,7 +107,7 @@ class NeoQueryBuilderEngine extends BaseEngine
         }
 
         return $this->connection->table($this->connection->raw('(' . $myQuery->toSql() . ') count_row_table'))
-                                ->setBindings($myQuery->getBindings())->count();
+            ->setBindings($myQuery->getBindings())->count();
     }
 
     /**
@@ -374,15 +374,22 @@ class NeoQueryBuilderEngine extends BaseEngine
      */
     protected function compileQuerySearch($query, $column, $keyword, $relation = 'or')
     {
-        $column = $this->addTablePrefix($query, $column);
+        /*$column = $this->addTablePrefix($query, $column);
+
+        $columnParts = explode('.',$column);
+        unset($columnParts[0]);
+        $column = implode('.',$columnParts);
+
         $column = $this->castColumn($column);
-        $sql    = $column . ' LIKE ?';
+        $sql    = $column . ' =~ ?';
 
         if ($this->isCaseInsensitive()) {
-            $sql = 'LOWER(' . $column . ') LIKE ?';
+            $sql = ' ' . $column . ' =~ ?';
         }
 
         $query->{$relation . 'WhereRaw'}($sql, [$this->prepareKeyword($keyword)]);
+*/
+        $query->{$relation . 'Where'}($column,'=~',$this->prepareKeyword($keyword));
     }
 
     /**
@@ -405,11 +412,18 @@ class NeoQueryBuilderEngine extends BaseEngine
             }
 
             // Get table from query and add it.
-            $column = $q->from . '.' . $column;
+            $from = is_array($q->from) ?
+                $q->from[0] :
+                $q->from;
+
+            // Get table from query and add it.
+            $column = camel_case($from)  . '.' . $column;
         }
 
         return $this->wrap($column);
     }
+
+
 
     /**
      * Wrap a column and cast in pgsql.
@@ -445,7 +459,7 @@ class NeoQueryBuilderEngine extends BaseEngine
         }
 
         if ($this->isSmartSearch()) {
-            $keyword = "%$keyword%";
+            $keyword = "(?i).*{$keyword}.*";
         }
 
         return $keyword;
@@ -671,7 +685,7 @@ class NeoQueryBuilderEngine extends BaseEngine
     public function paging()
     {
         $this->query->skip($this->request->input('start'))
-                    ->take((int) $this->request->input('length') > 0 ? $this->request->input('length') : 10);
+            ->take((int) $this->request->input('length') > 0 ? $this->request->input('length') : 10);
     }
 
     /**
