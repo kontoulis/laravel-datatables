@@ -364,7 +364,7 @@ abstract class DataTable implements DataTableContract, DataTableButtonsContract
     /**
      * Apply query scopes.
      *
-     * @param \Illuminate\Database\Query\Builder|\Illuminate\Database\Eloquent\Builder $query
+     * @param \Illuminate\Database\Query\Builder|\Illuminate\Database\Eloquent\Builder|\Vinelab\NeoEloquent\Eloquent\Builder $query
      * @return mixed
      */
     protected function applyScopes($query)
